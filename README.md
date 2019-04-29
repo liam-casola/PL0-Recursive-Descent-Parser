@@ -1,6 +1,6 @@
 # PL0_C_Parser
 
-A parser designed for a subset of the PL0 language, written in C. The following grammar was used:
+A recursive descent parser designed for a subset of the PL0 language, written in C. The following grammar was used:
 ```
 selector ::= {"." ident | "[" expression "]"}.
 factor ::= ident selector | integer | "(" expression ")" | "not" factor.
